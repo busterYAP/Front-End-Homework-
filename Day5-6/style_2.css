@@ -1,0 +1,37 @@
+.container{
+    width: 90%;
+    max-width: 900px;;
+    margin: 0 auto;
+    overflow: hidden;
+    /* background-color: cornsilk; */
+}
+.column1{
+    float: left;
+    width: 20%;
+    background-color: cornflowerblue;
+    padding-bottom:2000px;
+    margin-bottom:-2000px;
+}
+h1{
+    margin: 0 auto;
+    width: 2em;
+    color: white;
+}
+.column2{
+    float: right;
+    width: 76%;
+    padding-bottom:2000px;
+    margin-bottom:-2000px;
+}
+span{
+    margin-right: 30px;
+}
+
+dt{
+    margin-top: 1em;
+}
+
+dd{
+    margin-left: 0px;
+}
+

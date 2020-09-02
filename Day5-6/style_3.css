@@ -1,0 +1,51 @@
+.container{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.column1{
+    background-color: gray;
+    display: block;
+}
+
+h1{  
+    margin: auto 0;
+    padding: 20px;
+    color: white;
+}
+
+h2{
+    float: left;
+    background-color: rgba(202, 201, 201, 0.747);
+    padding: 50px;
+    margin: 0;
+    border: 1px solid white;
+}
+
+span{
+    margin: 10px;;
+}
+
+.row{
+    display: flex;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+dt,dd{
+    display: inline;
+    padding: 0;
+    margin:0;
+    line-height: 1.5em;
+}
+
+dt{
+    font-weight: bold;
+    margin:10px;
+}
+
+dd::after{
+    content: "\0A";
+    white-space: pre;
+}
