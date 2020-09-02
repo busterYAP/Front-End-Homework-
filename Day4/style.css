@@ -1,0 +1,89 @@
+html{
+    /* font-size: 10px; */
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+body{
+    width: 800px;
+    text-align: center;
+    margin:0 auto; 
+    /* background-color: honeydew;  */
+    
+}
+
+h1{
+    color: grey;
+    font-size: 3em;
+    font-weight: bolder;
+    text-shadow: 1px 1px;
+    /* background-color: white;    
+    background-image:url(star.png);
+    background-size: 70px;
+    background-repeat: repeat-x;
+    background-position: center; */
+    /* border: 2px solid; */
+    
+}
+
+h3{
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+span{
+    font-weight: bold;
+}
+
+div{
+    border-style: solid;
+    border-width: 1px 2px;
+    background-color: honeydew;
+}
+
+ul{
+    padding-left: 2em;
+    list-style-type: none;
+}
+
+ul li{
+    padding-left: 2em;
+    background-image: url(star.png);
+    background-position: 0 center;
+    background-size: 1em 1em;
+    background-repeat: no-repeat;
+    line-height: 1.5em;
+}
+
+h2::after{
+    content: "(YE Hanyun)"
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+    
+}
+
+a:focus{
+    color: yellow;
+    border-bottom: 1px solid;
+
+}
+
+a:hover{
+    color: green;
+    border-bottom: 1px solid;
+}
+
+a:active{
+    background-color: black;
+    color: white;
+}
